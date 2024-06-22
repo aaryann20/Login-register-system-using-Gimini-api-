@@ -89,7 +89,7 @@ class NLPApp(NLPModel):
      response = model.generate_content(f"Detect the language of the sentance:{user_test1}")
      self.__second_menu()
      
-
+#here the main code ends 
 
 # To start the application, create an instance of NLPApp.
 app = NLPApp()
