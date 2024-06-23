@@ -4,7 +4,7 @@ class NLPModel:
         genai.configur(api_key="AIzaSyCfq9PeM1zIFUyLh8we8OqPkwzmU_-PiGs")
         model = genai.GenerativeModel("gemini-pro")
         return model
-
+#all the functions in this class
 class NLPApp(NLPModel):
     def __init__(self):
         self.__database = {}
