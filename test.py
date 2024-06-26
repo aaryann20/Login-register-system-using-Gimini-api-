@@ -76,7 +76,7 @@ class NLPApp(NLPModel):
         print(result)
         self.__second_menu()
 
-
+#lang translation model using appi
     def ___language_translation(self):   
         user_text= input("Enter your text: ")
         response = model.generate_content(f"Give me hindi traslation of this sentance:{user_text}")
