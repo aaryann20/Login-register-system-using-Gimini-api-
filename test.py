@@ -42,7 +42,7 @@ class NLPApp(NLPModel):
             
             self.__language_detection()
         
-
+#functions for registeration
     def __register(self):
         name = input("Enter your name: ")
         email = input("Enter your email: ")
