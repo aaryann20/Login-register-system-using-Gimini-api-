@@ -24,7 +24,7 @@ class NLPApp(NLPModel):
             self.__login()
         else:
             exit()
-    
+    #as
     def __second_menu(self):
         second_input = input("""
         Hi! Would you like to proceed?
